@@ -1,4 +1,3 @@
-#!perl
 use strict;
 use warnings;
 use Test::More;
@@ -15,7 +14,8 @@ BEGIN {
 
 diag(
     sprintf(
-        'Testing Games::Joypad %f, Perl %f, %s', $Games::Joypad::VERSION, $], $^X
+        'Testing Games::Joypad %f, Perl %f, %s',
+        $Games::Joypad::VERSION, $], $^X
     )
 );
 
