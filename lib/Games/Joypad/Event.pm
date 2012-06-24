@@ -1,8 +1,9 @@
 package Games::Joypad::Event;
-use strict;
-use warnings;
 
 # ABSTRACT: Joypad event
+
+use strict;
+use warnings;
 
 sub new {
     my $class = shift;

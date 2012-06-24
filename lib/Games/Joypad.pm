@@ -1,11 +1,12 @@
 package Games::Joypad;
+
+# ABSTRACT: Abstract joypad
+
 use strict;
 use warnings;
 use Games::Joypad::Event;
 
 use parent qw(Exporter);
-
-# ABSTRACT: Abstract joypad
 
 use constant {
     NEUTRAL => 0,
