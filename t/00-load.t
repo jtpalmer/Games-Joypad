@@ -5,6 +5,9 @@ use Test::More;
 BEGIN {
     my @modules = qw(
         Games::Joypad
+        Games::Joypad::Event
+        Games::Joypad::Input::Keyboard
+        Games::Joypad::Input::SDL
     );
 
     for my $module (@modules) {
